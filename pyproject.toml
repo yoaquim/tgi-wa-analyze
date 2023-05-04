@@ -1,0 +1,18 @@
+[tool.pdm]
+
+[tool.pdm.scripts]
+start = "python -m streamlit run main.py"
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Yoaquim Cintrón", email = "yoaquim@outlook.com"},
+]
+dependencies = [
+    "streamlit>=1.22.0",
+    "altair>=4.2.2",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
