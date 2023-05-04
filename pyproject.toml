@@ -2,7 +2,9 @@
 name = "TGI What'sApp Chat Analyzer"
 version = "0.1"
 description = ""
-authors = "Yoaquim Cintrón"
+authors = [
+    "Yoaquim Cintrón"
+]
 
 [tool.pdm]
 
@@ -14,11 +16,11 @@ name = "TGI What'sApp Chat Analyzer"
 version = "0.1"
 description = ""
 authors = [
-    { name = "Yoaquim Cintrón", email = "yoaquim@outlook.com" },
+    {name = "Yoaquim Cintrón", email = "yoaquim@outlook.com"},
 ]
 dependencies = [
     "streamlit>=1.22.0",
     "altair>=4.2.2",
 ]
 requires-python = ">=3.11"
-license = { text = "MIT" }
+license = {text = "MIT"}
