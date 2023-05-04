@@ -1,12 +1,19 @@
 [tool.poetry]
+name = "TGI What'sApp Chat Analyzer"
+version = "0.1"
+description = ""
+authors = [
+    {name = "Yoaquim Cintrón", email = "yoaquim@outlook.com"},
+]
+
 [tool.pdm]
 
 [tool.pdm.scripts]
 start = "python -m streamlit run main.py"
 
 [project]
-name = ""
-version = ""
+name = "TGI What'sApp Chat Analyzer"
+version = "0.1"
 description = ""
 authors = [
     {name = "Yoaquim Cintrón", email = "yoaquim@outlook.com"},
