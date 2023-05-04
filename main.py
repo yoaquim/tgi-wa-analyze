@@ -14,7 +14,7 @@ def word_counter(word: str):
     return d
 
 
-terms = ['tu mai', 'bicho', 'sylvia', 'maritza', 'cabron']
+terms = ['tu mai', 'bicho', 'sylvia', 'maritza', 'cabron', 'mamabicho', 'gato']
 counts = [word_counter(term.lower()) for term in terms if True]
 
 source = pd.DataFrame({
